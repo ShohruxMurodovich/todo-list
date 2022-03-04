@@ -6,7 +6,6 @@ var toDoList = [];
 
 elForm.addEventListener("submit" , function(evt){
   evt.preventDefault()
-
   var inputVal = elInput.value.trim();
 
   var toDo = {
@@ -16,7 +15,6 @@ elForm.addEventListener("submit" , function(evt){
 
   toDoList.push(toDo.title);
   elList.innerHTML = "";
-
   for (var item of toDoList) {
 
     var li = document.createElement("li");
