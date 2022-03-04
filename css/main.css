@@ -1,0 +1,28 @@
+.wrapper{
+  display: block;
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 500px;
+}
+
+.form{
+  text-align: center;
+}
+
+.form__input{
+  width: 200px;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+
+.form__button{
+  padding: 10px 20px;
+  background: none;
+  background-color: darkcyan;
+  color: #fff;
+}
+
+li{
+  font-size: 18px;
+  font-weight: bold;
+}
